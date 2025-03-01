@@ -173,7 +173,7 @@
 }
 
 .invert {
-  filter: invert(0.9);
+  filter: invert(1) saturate(0.1);
 }
 
 .brightness {
