@@ -523,7 +523,7 @@
 
       <button
         onclick="window['dialog'].showModal()"
-        aria-controls="popup"
+        aria-controls="dialog"
         type="button"
         class="button button__save"
       >
@@ -549,16 +549,13 @@
 
         <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
       </div>
-
-      <form method="dialog">
-        <button
-          onclick="window['dialog'].close()"
-          type="button"
-          class="button dialog__button"
-        >
-          <span class="button__text">ок</span>
-        </button>
-      </form>
+    <button
+        onclick="window['dialog'].close()"
+        type="button"
+        class="button dialog__button"
+    >
+        <span class="button__text">ок</span>
+    </button>    
     </dialog>
 
     <script src="./scripts/like.js"></script>
